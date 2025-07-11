@@ -1,0 +1,56 @@
+# Legal RAG Pipeline - Python Dependencies
+# Core AI and ML libraries
+langchain==0.3.25
+langchain-core==0.3.65
+langchain-community==0.3.25
+langchain-mistralai==0.2.10
+langchain-ollama==0.3.3
+langchain-tavily==0.2.4
+langgraph==0.4.8
+
+# Embeddings
+tiktoken==0.9.0
+
+# Database and data persistence
+sqlalchemy==2.0.41
+
+# Document processing
+pypdf==5.6.0
+pdf2image==1.17.0
+pytesseract==0.3.13
+pillow==11.2.1
+
+# Web scraping and HTTP
+requests==2.32.3
+beautifulsoup4==4.13.4
+
+# Flask web framework
+flask==3.1.1
+flask-cors==6.0.1
+
+# Environment and configuration
+python-dotenv==1.1.0
+
+# Data processing
+pandas==2.3.0
+numpy==1.26.4
+tqdm==4.67.1
+
+# Type checking and development
+pydantic==2.11.5
+
+# Testing (optional - for development)
+pytest==8.4.0
+pytest-cov==6.2.1
+
+# Additional utilities
+python-decouple==3.8
+
+# OCR dependencies (system-level)
+# Note: Tesseract OCR must be installed separately
+
+# Faiss GPU version
+# Follow instructions: https://github.com/facebookresearch/faiss/blob/main/README.md
+# Faiss GPU version
+# Follow instructions: https://github.com/facebookresearch/faiss/blob/main/README.md
+# Install via Conda: conda install pytorch::faiss-cpu or conda install pytorch::faiss-gpu

@@ -1,0 +1,247 @@
+# Legal RAG Pipeline - Git Ignore Configuration
+
+tests/
+other/
+# ENVIRONMENT AND SECRETS
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+secrets/
+
+
+# PYTHON
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+# APPLICATION DATA AND DATABASES
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+legal_rag.db
+
+# Application data directory
+app_data/
+data/
+uploads/
+downloads/
+outputs/
+
+# Vector databases and indices
+*.faiss
+*.pkl
+*.index
+vector_store*/
+embeddings/
+
+# Client files and documents
+client_files/
+documents/
+pdfs/
+uploaded_files/
+
+
+# LOGS AND TEMPORARY FILES
+
+# Log files
+logs/
+*.log
+*.log.*
+log_*.txt
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.cache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+# FRONTEND (NODE.JS/REACT)
+
+# Dependencies
+node_modules/
+/ui/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+/ui/build/
+/ui/dist/
+
+
+# IDE AND EDITOR FILES
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+# TESTING AND DEVELOPMENT
+
+# Test databases and files
+test_*.db
+test_*.sqlite
+test_data/
+test_uploads/
+test_logs/
+tests/test_documents/
+
+# Development artifacts
+.dev/
+dev_*
+scratch/
+playground/
+
+
+# DOCUMENT AND MEDIA FILES
+
+# Documents (be careful with client data)
+*.pdf
+*.docx
+*.xlsx
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Images (unless part of the application)
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+# Exception for UI assets
+!ui/public/**/*.png
+!ui/public/**/*.jpg
+!ui/public/**/*.jpeg
+!ui/src/**/*.png
+!ui/src/**/*.jpg
+!ui/src/**/*.jpeg
+
+
+# MACHINE LEARNING AND AI
+
+# Model files
+*.ckpt
+*.pt
+*.h5
+*.onnx
+models/
+checkpoints/
+
+
+# LEGAL AND SENSITIVE DATA
+
+# Legal documents (be careful with client data)
+/client_documents/
+/case_files/
+/confidential/
+By_Laws/
+
+# API responses and cached data
+api_cache/
+response_cache/
+
+
+# MISCELLANEOUS
+
+# Jupyter Notebook output
+*.nbconvert.ipynb
+
+# Z-Drive and unpublished content
+.z_not_published/
+
+# Configuration exceptions
+!**/config.json
+!**/package.json
+!**/tsconfig.json
+!**/*config*.json
+
